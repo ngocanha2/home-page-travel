@@ -3,47 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" >
-    <link rel="stylesheet" href="assets/Gilroy-FREE/Gilroy-Light.otf" >
+    
+    
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <!-- <link rel="stylesheet" href="path/to/normalize.css"> -->
+    <!-- fw 800 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+     <!-- fw 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+     <!-- fw 500 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap" rel="stylesheet">
+
+    <!-- fw-400 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/style.css" >
+
     <title>Document</title>
 
     
 
 </head>
-<body>
+<body>        
 <div class="layout">
-    <div class="header">
-        <div class="top">
-            <div class="menu"> 
-                <div class="logo">
-                    <img src="image/logo.png">
-                    
-                    <p class="logo-title mg-t-20">Airtrav</p>
-                </div>
-
-                <div class="group-option-menu"> 
-                    <div class="option-menu">Things To Do</div>
-                    <div class="option-menu">Tour</div>
-                    <div class="option-menu">Blog</div>
-                </div>
-
-                <div class="group-notification" >
-                    <div class="notification">USD </div>
-                    <div class="notification">FAQ </div> 
-                    <div class="notification"><img src="image/line.png"> </div> 
-                    <div class="line"> </div>   
-                    <div class="notification"><img src="image/Rectangle 1058.png"></div>
-                </div>
-
-            </div>    
+        <div class="header">
+            <div class="top">
+                <div class="menu"> 
+                    <div class="logo">
+                        <img src="image/logo-header.png">
+                        
+                        
+                    </div>
+    
+                    <div class="group-option-menu"> 
+                        <div class="option-menu">Things To Do</div>
+                        <div class="option-menu">Tour</div>
+                        <div class="option-menu">Blog</div>
+                    </div>
+    
+                    <div class="group-notification" >
+                        <div class="notification">USD </div>
+                        <div class="notification">FAQ </div> 
+                        <div class="notification"><img src="image/line.png"> </div> 
+                        <div class="line"> </div>   
+                        <div class="notification"><img src="image/Rectangle 1058.png"></div>
+                    </div>
+    
+                </div>    
+            </div>
         </div>
-
         <div class="group-title">
             <div class="group-title-left">
 
                 <div class="decorate-title-left"> 
                     <div class="icon-decorate-title-left">
                         <svg xmlns="http://www.w3.org/2000/svg" width="175" height="113" viewBox="0 0 175 113" fill="none">
+                            
                             <path d="M1.38403 57.5728C10.1533 62.5371 46.14 75.5408 57.6532 61.9268C72.0448 44.9094 46.702 28.0236 34.0463 45.2667C21.3906 62.5097 57.2043 86.5727 76.3839 86.5727C108.384 86.5727 147.969 68.6774 154.884 57.5727" stroke="#FA8F54" stroke-width="1.5" stroke-dasharray="7 7"/>
                             <path d="M167.388 51.224C167.055 51.3395 166.694 51.3407 166.36 51.2273L162.578 49.9542L161.346 52.8539C161.292 52.9814 161.205 53.0923 161.094 53.1751C160.983 53.2579 160.851 53.3098 160.714 53.3254C160.576 53.341 160.437 53.3197 160.31 53.2638C160.183 53.2079 160.073 53.1193 159.992 53.0072L156.781 48.5854L153.776 48.5845C153.452 48.5842 153.135 48.4852 152.869 48.3007C152.602 48.1162 152.397 47.8548 152.283 47.5513C152.168 47.2479 152.148 46.9167 152.226 46.6018C152.304 46.2868 152.476 46.0031 152.719 45.7882L164.111 35.8335C164.329 35.6429 164.593 35.5146 164.877 35.4624C165.162 35.4102 165.455 35.436 165.725 35.537C165.996 35.6381 166.234 35.8106 166.415 36.0362C166.595 36.2618 166.711 36.5322 166.751 36.8185L168.453 49.5007C168.5 49.8665 168.42 50.2374 168.226 50.5512C168.032 50.8649 167.736 51.1025 167.388 51.224Z" fill="#3B71FE"/>
                             <path d="M160.881 53.287C160.723 53.3422 160.55 53.3448 160.39 53.2946C160.23 53.2443 160.09 53.1438 159.991 53.0079L156.549 48.2709C156.441 48.1233 156.389 47.9428 156.4 47.7607C156.412 47.5785 156.487 47.4062 156.612 47.2735L163.013 40.4897C163.141 40.3536 163.314 40.2678 163.5 40.2481C163.686 40.2283 163.873 40.2758 164.027 40.382C164.181 40.4881 164.292 40.6459 164.34 40.8268C164.387 41.0077 164.369 41.1996 164.287 41.3679L160.869 48.4256L161.4 52.4446C161.423 52.6172 161.388 52.7926 161.3 52.9429C161.212 53.0932 161.077 53.2099 160.915 53.2745C160.904 53.2792 160.892 53.2833 160.881 53.287Z" fill="#1A4ED3"/>
@@ -52,21 +76,19 @@
                 </div>
 
                 <div class="group-title-main">
-                    <div class="title" >Travel Planning Made <span class="color-yellow" >Easy</span> </div>
-                    <div class="describe-main-title">
+                    <div class="title" >Travel Planning Made <span class="color-yellow" >Easy</span> <img src="image/1.png"> </div>
+                    <div class="describe-main-title width-500">
                         We make it easy to plan and book your next trip with a Day by Day itinerary.
                     </div>
 
                     <div class="group-plan"> 
-                        <div class="plan"> 
-                             <p>Plan a Trip</p>
-                            <div class="arrow">
-                                <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0192 10.8978C22.628 10.3359 23.5769 10.3739 24.1389 10.9826L28.985 16.2325C29.5154 16.8071 29.5154 17.6928 28.985 18.2674L24.1389 23.5174C23.577 24.1262 22.628 24.1641 22.0192 23.6022C21.4105 23.0403 21.3725 22.0913 21.9344 21.4826L24.4569 18.75L9.88281 18.75C9.05438 18.75 8.38281 18.0784 8.38281 17.25C8.38281 16.4215 9.05438 15.75 9.88281 15.75L24.4568 15.75L21.9345 13.0174C21.3725 12.4087 21.4105 11.4597 22.0192 10.8978Z" fill="white"/>
-                                  </svg>
-                            </div>
-                        </div>
-                       
+                        <input class="input-plan-a-trip" type=" text" placeholder="Plan a Trip">
+                        <button class="arrow">
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0192 10.8978C22.628 10.3359 23.5769 10.3739 24.1389 10.9826L28.985 16.2325C29.5154 16.8071 29.5154 17.6928 28.985 18.2674L24.1389 23.5174C23.577 24.1262 22.628 24.1641 22.0192 23.6022C21.4105 23.0403 21.3725 22.0913 21.9344 21.4826L24.4569 18.75L9.88281 18.75C9.05438 18.75 8.38281 18.0784 8.38281 17.25C8.38281 16.4215 9.05438 15.75 9.88281 15.75L24.4568 15.75L21.9345 13.0174C21.3725 12.4087 21.4105 11.4597 22.0192 10.8978Z" fill="white"/>
+                                </svg>
+                        </button>
+                                        
                     </div>
 
                     <div class="group-review">
@@ -79,52 +101,19 @@
                                 <img class="img-start" src="image/5 star.png">
                             </div>    
 
-                            <div class="line height-50 mg-l-10"></div> 
-
-                            <div class=" group-star mg-l-14">
+                            <div class="line-review "></div> 
+                            <div class=" group-star ml-14">
                                 <div class="result-review">4.7 </div>
                                 <div class="describe-result-review">out of 5 on <span> 194</span> reviews</div>
                             </div>
                         </div>
-                     
-
-                        
-                       
                     </div>    
-                </div>
-                
+                </div>  
             </div>
-            <div class="group-title-right"> 
-                <div class="group-guide-support">
-                    <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none">
-                            <circle cx="42" cy="42" r="42" fill="#3B71FE"/>
-                          </svg>
-                          
-                          <div class="icon-dashed-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66" fill="none">
-                                <circle cx="33" cy="33" r="32.5" stroke="white" stroke-dasharray="6 6"/>
-                                </svg>
-                          </div>
-
-                          <div class="icon-camera">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <path d="M21.5562 7.2C21.3942 7.2 21.2371 7.24219 21.0996 7.32656L16.8518 9.88594C16.729 9.96094 16.6554 10.0875 16.6554 10.2234V13.7859C16.6554 13.9219 16.729 14.0484 16.8518 14.1234L21.0996 16.6828C21.2371 16.7625 21.3942 16.8094 21.5562 16.8094H22.5777C22.8134 16.8094 23 16.6313 23 16.4109V7.59844C23 7.37813 22.8085 7.2 22.5777 7.2H21.5562ZM12.8594 18H3.52902C2.13929 18 1 16.9125 1 15.5906V8.40937C1 7.08281 2.13929 6 3.52411 6H12.8545C14.2442 6 15.3786 7.0875 15.3786 8.40937V15.5859C15.3835 16.9125 14.2491 18 12.8594 18Z" fill="white"/>
-                                </svg>
-                          </div>
-
-                          <button class="btn-live"> Live</button>
-
-                          <div class="title-camera-icon">24/7</div>
-                          <p class="describe-camera-icon"> Guide Support</p>
-                    </div>
-                </div>
-                <img class="image-title" src="image/image.png">
-
-            </div>
+            
+          <div><img class="image-title" src="image/people-header.png"></div>
 
         </div>
-    </div>
 
     <div class="partner">
         <div class="group-branch">
@@ -137,42 +126,61 @@
     </div>
 
     <div class="trip-planning"> 
-        <div class="title-trip-planning">
-            <h1 class="title-plan"> Innovative Trip Planning</h1>
-            <span class="describe-title-plan">Our Vision is to revolutionize the way people travel by<br> introducing intelligent trip planning </span>
-         </div>
-
-        <div class="content-trip-planning">
-            <div class="group-benefit bg-light-green">
-                <img src="image/sun.png">
-                <p class="describe-title-plan"> Partner allows you to <br> browse multiple carriers<br> for travel. </p>
-                <br>
-                <div class="learn-more" > 
-                    <span>Learn More</span>    
-                    <img src="image/Line-2.png"> 
+        <div class="box-trip-planning">
+            <div class="title-trip-planning">
+                <h1 class="title-plan"> Innovative Trip Planning</h1>
+                <span class="describe-title-plan lh-32">Our Vision is to revolutionize the way people travel by introducing intelligent trip planning </span>
+             </div>
+    
+            <div class="content-trip-planning">
+                <div class="group-benefit bg-light-green px-35">
+                    <div> 
+                         <img src="image/sun.png">
+                        <p class="describe-title-plan">Partner allows you to 
+                            browse multiple carriers 
+                            for travel.</p>
+                        
+                    </div>
+                   
+                    <div class="learn-more" > 
+                        <span> Learn More</span>    
+                        <img src="image/Line-2.png"> 
+                    </div>
                 </div>
+    
+                <div class="group-benefit bg-light-orange px-30">
+                    <div>
+                        <img src="image/button_tv.png">
+                        <p class="describe-title-plan">The website is a way for 
+                            partners to communicate 
+                            with their customers.</p>
+                    </div>
+                    
+                    
+                    <div class="learn-more" > 
+                        <span>Learn More</span>    
+                        <img src="image/Line-2.png"> 
+                    </div>
+                </div>
+                
+    
+                <div class="group-benefit bg-light-blue px-50">
+                    <div>
+                        <img src="image/button-book.png">
+                        <p class="describe-title-plan">The eBook Reader is 
+                            a new way to look at 
+                            e-books.</p>
+                            
+                    </div>
+                    
+                    <div class="learn-more" > 
+                        <span>Learn More</span>   
+                        <img src="image/Line-2.png"> 
+                    </div>
+                </div>  
             </div>
-
-            <div class="group-benefit bg-light-orange">
-                <img src="image/button_tv.png">
-                <p class="describe-title-plan">The website is a way for <br> partners to communicate <br> with their customers. </p>
-                <br>
-                <div class="learn-more" > 
-                    <span>Learn More</span>    
-                    <img src="image/Line-2.png"> 
-                </div>
-            </div>
-
-            <div class="group-benefit bg-light-blue">
-                <img src="image/button-book.png">
-                <p class="describe-title-plan"> The eBook Reader is<br> a new way to look at <br> e-books. </p>
-                <br>
-                <div class="learn-more" > 
-                    <span>Learn More</span>    
-                    <img src="image/Line-2.png"> 
-                </div>
-            </div>  
         </div>
+        
     </div>
 
     <div class="book-steps">
@@ -181,47 +189,47 @@
                 <div class="box-create-trip">
                     <div class="items-create-trip"> 
                         <div class="item-create">Create Your Trip</div>
-                        <p class="base-describe color-light-gray fs-16"> Set up all trip</p>
+                        <p class="describe-set-up"> Set up all trip</p>
 
-                            <!-- <div class="base-row al-it-center">
-                                <img class="img-option-trp" src="image/Ellipse 2220.png"> 
-                                <span class="base-small-title  mg-l-7">Plan a trip</span>
-                            </div> -->
-
-                            <div class="base-row option-plan-a-trip jtf-ct-space-between">
-                                <span class="base-small-title color-gray fs-w-600"> Plan a trip</span>    
+                            <div class="option-plan-a-trip ">
+                                <span class="base-small-title color-gray fw-600"> Plan a trip</span>    
                                 <img src="image/Line2.png">
                             </div>
                             
                         
 
-                        <div class="option-trip mg-t-20">
+                        <div class="option-trip mt-20">
                             <div class="base-row al-it-center">
-                                <img  class="img-option-trp" src="image/Ellipse 2220.png"> 
-                                <span class="base-small-title mg-l-7">Set Up your Account</span>
+                                <div class="light-option"> </div>
+                                <div> </div>
+                                <span class="base-small-title ml-7">Set Up your Account</span>
                                 <img class="img-line-trip" src="image/Line2.png">
                             </div>
-                            <span class="base-describe color-light-gray mg-t-4 ">  &nbsp; &nbsp; &nbsp; &nbsp;Book your best exprience</span>
+                            <span class="describe-option-trip ">Book your best exprience</span>
                         </div>
                         <div class="option-trip">
                             <div class="base-row al-it-center">
-                                <img class="img-option-trp" src="image/Ellipse 2220.png"> 
-                                <span class="base-small-title  mg-l-7">Day by day Plan</span>
+                                <div class="light-option"> </div>
+                                <span class="base-small-title  ml-7">Day by day Plan</span>
                                 <img class="img-line-trip" src="image/Line2.png">
                             </div>
-                            <span class="base-describe color-light-gray mg-t-4 ">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;Book your best exprience</span>
+                            <span class="describe-option-trip ">Book your best exprience</span>
                         </div>
                         <div class="option-trip">
                             <div class="base-row al-it-center">
-                                <img class="img-option-trp" src="image/Ellipse 2220.png"> 
-                                <span class="base-small-title  mg-l-7">Booking System</span>
+                                <div class="light-option"> </div>
+                                <span class="base-small-title  ml-7">Booking System</span>
                                 <img class="img-line-trip" src="image/Line2.png">
                             </div>
-                            <span class="base-describe color-light-gray mg-t-4 ">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;Book your best exprience</span>
+                            <span class="describe-option-trip ">Book your best exprience</span>
                         </div>
                         
                     </div>
-                    <div class="items-cost-trip"><h3 class="cost"> $50.00 <sub class="fs-14"> / per Trip</sub> </h3></div> 
+                    <div class="items-cost-trip">
+                        <div class="box-cost-trip">
+                            <h3 class="cost"> $50.00 <sub class="fs-14"> / per Trip</sub> </h3>
+                        </div>
+                    </div> 
                 </div>
                 <div class="paging">
                     <img src="image/Line-2.png"> 
@@ -232,33 +240,36 @@
 
             <div class="content-book-right">
                 <h1 class="base-title">Book Easy 3 Steps</h1>
-                <p class="base-describe">Planning a trip is sometimes not easy. But Trip Plan will help you to manage time 
+                <p class="base-describe lh-20">Planning a trip is sometimes not easy. But Trip Plan will help you to manage time 
                     and budget for your journey! There are only 3 steps: Create an 
                     account, choose your destination city. </p>
-                    <div class="mg-t-30">
-                        <div class="base-row mg-b-20">
-                            <img src="image/Ellipse 2220-blue.png">
-                            <span class="base-small-title color-gray mg-l-10">Set Up your Account </span>
+                    <div class="mt-30">
+                        <div class="base-row mb-20">
+                            <div class="dark-option"></div>
+                            <span class="base-small-title color-gray ml-10">Set Up your Account </span>
                         </div>
     
-                        <div class="base-row mg-b-20" >
-                            <img src="image/Ellipse 2220-blue.png">
-                            <span class="base-small-title color-gray mg-l-10">Respond to Private requests</span>
+                        <div class="base-row mb-20" >
+                            <div class="dark-option"></div>
+                            <span class="base-small-title color-gray ml-10">Respond to Private requests</span>
                         </div>
     
-                        <div class="base-row mg-b-20">
-                            <img src="image/Ellipse 2220-blue.png">
-                            <span  class="base-small-title color-gray mg-l-10">Book your Trip </span>
+                        <div class="base-row mb-20">
+                            <div class="dark-option"></div>
+                            <span  class="base-small-title color-gray ml-10">Book your Trip </span>
                         </div>
                     </div>
                     <div class="dashed-line"></div>
-                    <span class="base-describe fstyle-italic color-gray mg-t-20">“Plan your trip with a 3-step trip plan. Check in out at a glance, select hotel rooms on the go, and create a packing list”</span>
-                    <div class="avatar">
+                    <span class="base-describe color-gray mt-20 fs-16">
+                        <i class="lh-24">“Plan your trip with a 3-step trip plan. Check in out at a glance, 
+                            select hotel rooms on the go, and create a packing list”</i>
+                    </span>
+                    <div class="avatar gap-14">
                         <img class="bd-radius-100" src="image/avartar.png"> 
 
-                        <div class="base-colum gap-10 mg mg-t-10">
-                            <span class="base-small-title color-gray mg-l-14 fs-18"> Steve Jobs</span>
-                           <span class="base-describe fs-18 mg-l-14">Co-Founder and CEO</span>
+                        <div class="base-colum gap-10 mt-10">
+                            <span class="base-small-title color-gray  fs-18 "> Steve Jobs</span>
+                           <span class="base-describe fs-18  color-gray-3">Co-Founder and CEO</span>
                         </div>
                     </div>
             </div>
@@ -270,36 +281,38 @@
             <div class="content-trip-booking">
                 <div class="title-trip-booking">
                     <h1 class="base-title"> Easy Trip Booking Website</h1>
-                    <span class="base-describe">A new way to book travel online, saving you time. With trip, There are no confusing spreadsheets or complicated searches. We just ask the right questions, find the best deal for you, then book it. </span>
+                    <span class="describe-trip-booking">A new way to book travel online, saving you time. With trip, 
+                        There are no confusing spreadsheets or complicated searches. We just ask the right questions, 
+                        find the best deal for you, then book it. </span>
                 </div>
     
                 <div class="trip-booking-box">
-                    <div class="item-trip-booking mg-l-0">
+                    <div class="item-trip-booking ">
                         <div class="content-item-trip">
-                            <img class="w-22-h-22" src="image/brand logo-1.png">
-                            <p class="base-small-title fs-14 color-gray fs-w-600">Trip Advisor</p>
-                            <p class="base-describe fs-11">Cheap Flights Amazing Experiences </p>
+                            <img class="w-h-22" src="image/brand logo-1.png">
+                            <p class="base-small-title fs-14 color-gray fw-600">Trip Advisor</p>
+                            <p class="describe-item-trip ">Cheap Flights Amazing Experiences </p>
                         </div>
                     </div>
                     <div class="item-trip-booking">
                         <div class="content-item-trip">
-                            <img class="w-22-h-22" src="image/brand logo-2.png">
-                            <p class="base-small-title fs-14 color-gray fs-w-600">Arbn</p>
-                            <p class="base-describe fs-11 ">Choose From a Wide Range of Properties Which Booking. </p>
+                            <img class="w-h-22" src="image/brand logo-2.png">
+                            <p class="base-small-title fs-14 color-gray fw-600">Arbn</p>
+                            <p class="describe-item-trip ">Choose From a Wide Range of Properties Which Booking. </p>
                         </div>
                     </div>
                     <div class="item-trip-booking">
                         <div class="content-item-trip">
-                            <img class="w-22-h-22" src="image/brand logo-3.png">
-                            <p class="base-small-title fs-14 color-gray fs-w-600">Itata</p>
-                            <p class="base-describe  fs-11">Cheap Flights Amazing Experiences </p>
+                            <img class="w-h-22" src="image/brand logo-3.png">
+                            <p class="base-small-title fs-14 color-gray fw-600">Itata</p>
+                            <p class="describe-item-trip ">Cheap Flights Amazing Experiences </p>
                         </div>
                     </div>
                     <div class="item-trip-booking">
                         <div class="content-item-trip">
-                            <img class="w-22-h-22" src="image/brand logo-4.png">
-                            <p class="base-small-title fs-14 color-gray fs-w-600">Trip Advisor</p>
-                            <p class="base-describe fs-11 ">Cheap Flights Amazing Experiences </p>
+                            <img class="w-h-22" src="image/brand logo-4.png">
+                            <p class="base-small-title fs-14 color-gray fw-600">Trip Advisor</p>
+                            <p class="describe-item-trip ">Cheap Flights Amazing Experiences </p>
                         </div>
                     </div>
                 </div>
@@ -308,20 +321,20 @@
                 <div class="content-trip-booking-rigth">
                     <div class="box-welcom">
                         <div class="base-row ">
-                           <img class="w-40-h-40" src="image/webcome.png">
-                            <div class="base-colum  mg-l-7">
+                           <img class="w-h-40" src="image/webcome.png">
+                            <div class="base-colum  ml-7">
                                 <span class="base-small-title color-gray">Hey! Welcome to Airtrav</span>
                                 <span class="base-describe"> Please Select to one</span>
                             </div>  
                         </div>
                         <div class="base-pst-relative">
-                            <img src="image/card-welcome.png" class="mg-t-30">
+                            <img src="image/card-welcome.png" class="mt-30">
                             <div class="btn-trip-book">
                                
                                 <img src="image/Polygon 14.png"> 
                                 <br>
                                 <span>&nbsp;</span>
-                                <button  class="btn-book mg-t-n"> 
+                                <button  class="btn-book mt-negative-10"> 
                                    Book
                                 </button>
                             </div>
@@ -340,22 +353,22 @@
                 <div class="message"> 
                     <img class="bd-radius-100" src="image/avatar-bete-raiseley.png">
                     <p class="base-small-title color-gray">Bete Raisley</p>
-                    <p class="base-describe color-gray-4 mg-t-negative-10"> Traveller</p>
-                    <div class="base-row"> 
+                    <p class="base-describe color-gray-4 mt-negative-10"> Traveller</p>
+                    <div class="base-row gap-10"> 
                         <img src="image/fell.svg">
-                        <img class="mg-l-10" src="image/in.svg">
-                        <img class="mg-l-10" src="image/twitter.svg">
-                        <img class="mg-l-10" src="image/messerger.svg">
-                        <img class="mg-l-10" src="image/instagram (1).svg">
+                        <img src="image/in.svg">
+                        <img  src="image/twitter.svg">
+                        <img src="image/messerger.svg">
+                        <img src="image/instagram (1).svg">
                     </div>
-                    <button class="btn-message base-content-btn mg-t-10">Message </button>
+                    <button class="btn-message base-content-btn mt-10">Message </button>
                 </div>
 
                 <div class="book-now">
                     <div class="title-book-now">
                         <img class="bg-icon" src="image/logo icon 2.svg">
-                        <p class="base-small-title color-gray mg-l-14 fs-18 ">&nbsp; Airtrav Trip Planner &nbsp;&nbsp;</p>
-                        <img class="icon-arrowdown mg-l-35" src="image/arrowdown iocn.png"> 
+                        <p class="base-small-title color-gray ml-14 fs-18 ">&nbsp; Airtrav Trip Planner &nbsp;&nbsp;</p>
+                        <img class="icon-arrowdown " src="image/arrowdown iocn.png"> 
                     </div>
                     <img class="image-book-now" src="image/book-now.png">
                     <div class="box-avatar-book-now">
@@ -365,7 +378,7 @@
                             <img class="pst-absolute left-44" src="image/avartor3.png"> 
                            
                         </div>
-                        <div class="mg-t-6">  <span class="base-describe"> See All </span> </div>
+                        <span class="base-describe"> See All </span>
                         <button class="btn-book-now"><span class="base-content-btn">Book now</span> </button>
                     </div>
 
@@ -385,37 +398,37 @@
 
             <div class="how-its-work-right">
                 <span class="base-title">How does it works</span>
-                <span class="base-describe"> We find the absolute best prices on hotels & flights then we pass these savings directly to you.</span>
+                <span class="describe-how-work "> We find the absolute best prices on hotels & flights then we pass these savings directly to you.</span>
 
-                <div class="base-row al-it-start gap-24 mg-t-30">
+                <div class="item-how-work">
                         <div class="bg-icon-book-now"><img class="icon-book-now" src="image/user-icon.svg"></div>
-                        <div class="base-colum">
+                        <div class="base-colum gap-10">
                             <span class="base-small-title fs-24 color-gray"> Account</span>
-                            <p class="base-describe fs-16 color-gray-3">All the necessary information to create <br> your account are below this.</p>
+                            <p class="base-describe fs-16 color-gray-3 lh-24">All the necessary information to create <br> your account are below this.</p>
                         </div>
                 </div>
 
-                <div class="base-row al-it-start gap-24">
+                <div class="item-how-work">
                     <div class="bg-icon-book-now"><img class="icon-book-now" src="image/book icon.svg"></div>
-                    <div class="base-colum">
+                    <div class="base-colum gap-10">
                         <span class="base-small-title fs-24 color-gray"> Select Destination</span>
-                        <p class="base-describe fs-16 color-gray-3">At first choose the place <br> you wanted to go</p>
+                        <p class="base-describe fs-16 color-gray-3 lh-24">At first choose the place <br> you wanted to go</p>
                     </div>
                 </div>
 
-                <div class="base-row al-it-start gap-24">
+                <div class="item-how-work">
                     <div class="bg-icon-book-now"><img class="icon-book-now" src="image/icon book a trip.svg"></div>
-                    <div class="base-colum">
+                    <div class="base-colum gap-10">
                         <span class="base-small-title fs-24 color-gray"> Book a trip</span>
-                        <p class="base-describe fs-16 color-gray-3">book your tip form our exclusive <br> offers</p>
+                        <p class="base-describe fs-16 color-gray-3 lh-24">book your tip form our exclusive <br> offers</p>
                     </div>
                 </div>
 
-                <div class="base-row al-it-start gap-24">
+                <div class="item-how-work">
                     <div class="bg-icon-book-now"><img class="icon-book-now" src="image/plane icon.svg"></div>
-                    <div class="base-colum">
+                    <div class="base-colum gap-10">
                         <span class="base-small-title fs-24 color-gray"> Take your flight</span>
-                        <p class="base-describe fs-16 color-gray-3">Take your flight on selected <br> date and joy</p>
+                        <p class="base-describe fs-16 color-gray-3 lh-24">Take your flight on selected <br> date and joy</p>
                     </div>
                 </div>
 
@@ -428,35 +441,41 @@
 
         <div class="content-services">
             <span class="base-title color-white"> Airtrav Best Services </span>
-            <p class="base-describe fs-18 color-white">Love by airtrave all services and amazine trip booked plane </p>
-
+            <p class="describe-services mt-10">Love by airtrave all services and amazine trip booked plane </p>
+            
             <div class="group-board-services">
-                <div class="box-services mg-l-0">
+                <div class="box-services">
                       <img src="image/btn-hotel.png">  
-                      <br>
-                      <span class="base-small-title fs-24 color-gray">100,000</span>
-                      <span class="base-describe">cities all over the world</span>
+                    <div class="base-colum al-it-center gap-10">
+                        <span class="base-small-title fs-24 color-gray">100,000</span>
+                        <span class="base-describe color-gray-3">cities all over the world</span>
+                    </div>
+                     
                 </div>    
 
                 <div class="box-services">
                     <img src="image/btn-card.png">  
-                    <br>
-                    <span class="base-small-title fs-24 color-gray">100</span>
-                    <span class="base-describe">Gift card over the world</span>
+                    <div class="base-colum al-it-center gap-10">
+                        <span class="base-small-title fs-24 color-gray">100</span>
+                     <span class="base-describe color-gray-3">Gift card over the world</span>    
+                    </div>
+                    
               </div>    
 
               <div class="box-services">
                 <img src="image/btn-rout.png">  
-                <br>
-                <span class="base-small-title fs-24 color-gray">1000</span>
-                <span class="base-describe">Guest referrals over</span>
+                <div class="base-colum al-it-center gap-10">
+                    <span class="base-small-title fs-24 color-gray">1000</span>
+                    <span class="base-describe color-gray-3">Guest referrals over</span>
+                </div>
           </div>    
 
           <div class="box-services">
             <img src="image/btn-star.png">  
-            <br>
-            <span class="base-small-title fs-24 color-gray">5 Star</span>
-            <span class="base-describe">Reviews Customar </span>
+            <div class="base-colum al-it-center gap-10">
+                <span class="base-small-title fs-24 color-gray">5 Star</span>
+                <span class="base-describe color-gray-3">Reviews Customar </span>
+            </div>
       </div>    
             </div>
         </div>
@@ -468,47 +487,50 @@
         <div class="content-our-features">
             <span class="base-title">Discover our Features </span>
 
-            <div class="box-travel-plan">
-                <div class="base-colum">
-                    <div class="base-row al-it-center">
-                        <img src="image/icon share plan.png">
-                        <div class="base-small-title fs-30 color-gray">&nbsp; &nbsp;Share Your Travel Plan</div>
-                    </div>    
-                    <p class="base-describe fs-18 ln-height-32">Ticket is an ultra-convenient way to buy your <br> 
-                        train or bus ticket online in seconds.</p>
+            <div class="base-row gap-250" >
+                <div class="box-travel-plan">
+                    <div class="base-colum gap-20">
+                        <div class="base-row al-it-center gap-14">
+                            <img src="image/icon share plan.png">
+                            <div class="base-small-title fs-30 color-gray">Share Your Travel Plan</div>
+                        </div>    
+                        <p class="describe-discover">Ticket is an ultra-convenient way to buy your <br> 
+                            train or bus ticket online in seconds.</p>
+                    </div>
+
+                    <div class="base-colum gap-20">
+                        <div class="base-row al-it-center gap-14">
+                            <img src="image/icon-receive-ticket.png">
+                            <div class="base-small-title fs-30 color-gray">Receive Ticket</div>
+                        </div>    
+                        <p class="describe-discover">The Receive plan Ticket will allow you to travel freely.
+                            <br>You will be able to get in any location.</p>
+                    </div>
+
+                    
                 </div>
 
-                <div class="base-colum">
-                    <div class="base-row al-it-center">
-                        <img src="image/icon-get-tour.png">
-                        <div class="base-small-title fs-30 color-gray">&nbsp; &nbsp;Get Monthly Tour</div>
-                    </div>    
-                    <p class="base-describe fs-18 ln-height-32">Our Get Monthly Tours marketing package will help get &nbsp; &nbsp;&nbsp;&nbsp;<br>  moreclients in your photography business.</p>
+                <div class="box-travel-plan">
+                
+                    <div class="base-colum gap-20">
+                        <div class="base-row al-it-center gap-14">
+                            <img src="image/icon-get-tour.png">
+                            <div class="base-small-title fs-30 color-gray">Get Monthly Tour</div>
+                        </div>    
+                        <p class="describe-discover">Our Get Monthly Tours marketing package will help get 
+                            <br>  moreclients in your photography business.</p>
+                    </div>
+
+                    <div class="base-colum gap-20">
+                        <div class="base-row al-it-center gap-14">
+                            <img src="image/icon-flight-booking.png">
+                            <div class="base-small-title fs-30 color-gray">Flight Booking</div>
+                        </div>    
+                        <p class="describe-discover">Flight Booking is an ultra-convenient way to buy your 
+                            train<br> or bus ticket online in seconds.</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="box-travel-plan">
-                <div class="base-colum">
-                    <div class="base-row al-it-center">
-                        <img src="image/icon-receive-ticket.png">
-                        <div class="base-small-title fs-30 color-gray">&nbsp; &nbsp;Receive Ticket</div>
-                    </div>    
-                    <p class="base-describe fs-18 ln-height-32">The Receive plan Ticket will allow you to travel freely.
-                        <br>You will be able to get in any location.</p>
-                </div>
-
-                <div class="base-colum">
-                    <div class="base-row al-it-center">
-                        <img src="image/icon-flight-booking.png">
-                        <div class="base-small-title fs-30 color-gray">&nbsp; &nbsp;Flight Booking</div>
-                    </div>    
-                    <p class="base-describe fs-18 ln-height-32">Flight Booking is an ultra-convenient way to buy your 
-                         train<br> or bus ticket online in seconds.</p>
-                </div>
-            </div>
-
-
-            
         </div>
     </div>
 
@@ -516,10 +538,10 @@
         <div class="content-trip-plan">
             <div class="base-colum gap-24">
                 <h1 class="base-title">Ready for 14 days<br>Trip Plan </h1> 
-                <span class="base-describe ln-height-32">The secret of good trip planning is to plan in advance, and we 
+                <span class="describe-discover">The secret of good trip planning is to plan in advance, and we 
                     <br>can't get much more advanced than 14 days. </span> 
 
-                <div class="btn-go-plan"><span class="base-content-btn "> Go Plan <br> </span> </div>  
+                <div class="btn-go-plan base-content-btn"> Go Plan </div>  
             </div>
 
             <div class="right-content-trip-plan">
@@ -531,9 +553,9 @@
                             <img src="image/icon-check-route.png">
                             <div class="base-colum">
                                 <span class="base-small-title fs-12 color-gray">Check your Route</span>
-                                <div class="base-row gap-10 al-it-center mg-t-negative-10">
-                                    <div class="icon-check-now mg-t-negative-6">
-                                        <img class="with-full" src="image/avator2.png">
+                                <div class="base-row gap-10 al-it-center mt-negative-10">
+                                    <div class="icon-check-now mt-negative-6">
+                                        <img class="width-full" src="image/avator2.png">
                                     </div>
                                     <span class="base-small-title color-gray-3 fs-8">Mc colaman</span>
                                     <div class="box-day al-it-center">
@@ -551,9 +573,9 @@
                             <img src="image/btn-calendar.png">
                             <div class="base-colum">
                                 <span class="base-small-title fs-12 color-gray">Set Day by day Plan</span>
-                                <div class="base-row gap-10 al-it-center mg-t-negative-10">
-                                    <div class="icon-check-now mg-t-negative-6">
-                                        <img class="with-full" src="image/avator6.png">
+                                <div class="base-row gap-10 al-it-center mt-negative-10">
+                                    <div class="icon-check-now mt-negative-6">
+                                        <img class="width-full" src="image/avator6.png">
                                     </div>
                                     <span class="base-small-title color-gray-3 fs-8">Rebecca</span>
                                     <div class="box-day al-it-center">
@@ -571,9 +593,9 @@
                             <img src="image/btn-checkedlist.png">
                             <div class="base-colum">
                                 <span class="base-small-title fs-12 color-gray">Choose the Checklist</span>
-                                <div class="base-row gap-10 al-it-center mg-t-negative-10">
-                                    <div class="icon-check-now mg-t-negative-6">
-                                        <img class="with-full" src="image/avartor3.png">
+                                <div class="base-row gap-10 al-it-center mt-negative-10">
+                                    <div class="icon-check-now mt-negative-6">
+                                        <img class="width-full" src="image/avartor3.png">
                                     </div>
                                     <span class="base-small-title color-gray-3 fs-8">Kattamic</span>
                                     <div class="box-day al-it-center">
@@ -591,9 +613,9 @@
                             <img src="image/icon-check-route.png">
                             <div class="base-colum">
                                 <span class="base-small-title fs-12 color-gray">Specify Where to stay</span>
-                                <div class="base-row gap-10 al-it-center mg-t-negative-10">
-                                    <div class="icon-check-now mg-t-negative-6">
-                                        <img class="with-full" src="image/avator-7.png">
+                                <div class="base-row gap-10 al-it-center mt-negative-10">
+                                    <div class="icon-check-now mt-negative-6">
+                                        <img class="width-full" src="image/avator-7.png">
                                     </div>
                                     <span class="base-small-title color-gray-3 fs-8">Settram NC</span>
                                     <div class="box-day al-it-center">
@@ -613,57 +635,54 @@
 
     <div class="footer">
         <div class="box-content-footer">
-            <div class="base-colum width-268 gap-30"> 
-                <div class="base-row gap-10 al-it-center">
-                    <img src="image/logo-footer.png">
-                    <span class="name-branch">Airtrav</span>
-                </div>
+            <div class="base-colum width-270"> 
+                <img class="logo-footer" src="image/logo-header.png">
 
-                <p class="base-small-title color-gray">Similarly, a loan taken out to buy a car may be secured by the car. The duration of the loan. </p>
+                <p class="base-small-title color-gray fw-400 lh-24">Similarly, a loan taken out to buy a car may be secured by the car. The duration of the loan. </p>
                 
                 <div class="enter-email"> 
-                    <span class="base-describe color-gray-4" >Enter your email</span>
-                    <img class="" src="image/btn-circle.png">
+                        <input class="input-enter-email" type=" text" placeholder="Enter your email">
+                        <button class="arrow-footer">
+                            <img src="image/btn-circle.png">
                 </div>
             </div>
 
-            <div class="base-colum gap-14">
-                <p class="base-small-title color-gray fs-24"> Services</p>
-                <span class="base-small-title f-w-400 color-gray-4">Trip Planner</span>
-                <span class="base-small-title f-w-400 color-gray-4">Tour Planning </span>
-                <span class="base-small-title f-w-400 color-gray-4"> Tour Guide </span>
-                <span class="base-small-title f-w-400 color-gray-4">Tour Package </span>
-                <span class="base-small-title f-w-400 color-gray-4">Tour advice </span>
+            <div class="base-colum gap-14 fs-16 fw-400 color-gray-4">
+                <p class="color-gray fs-24 fw-500"> Services</p>
+                <span>Trip Planner</span>
+                <span>Tour Planning </span>
+                <span> Tour Guide </span>
+                <span>Tour Package </span>
+                <span>Tour advice </span>
             </div>
 
-            <div class="base-colum gap-14">
-                <p class="base-small-title color-gray fs-24"> Support</p>
-                <span class="base-small-title f-w-400 color-gray-4">Account</span>
-                <span class="base-small-title f-w-400 color-gray-4">Legal </span>
-                <span class="base-small-title f-w-400 color-gray-4"> Contact</span>
-                <span class="base-small-title f-w-400 color-gray-4">Terms & Condition </span>
-                <span class="base-small-title f-w-400 color-gray-4">Privacy Policy </span>
+            <div class="base-colum gap-14 fs-16 fw-400 color-gray-4">
+                <p class="color-gray fs-24 fw-500"> Support</p>
+                <span>Account</span>
+                <span>Legal </span>
+                <span> Contact</span>
+                <span>Terms & Condition </span>
+                <span>Privacy Policy </span>
             </div>
 
-            <div class="base-colum gap-14">
-                <p class="base-small-title color-gray fs-24"> Business</p>
-                <span class="base-small-title f-w-400 color-gray-4">Success</span>
-                <span class="base-small-title f-w-400 color-gray-4">About Locato </span>
-                <span class="base-small-title f-w-400 color-gray-4"> Blog</span>
-                <span class="base-small-title f-w-400 color-gray-4">Infomation</span>
-                <span class="base-small-title f-w-400 color-gray-4">Travel Guide</span>
+            <div class="base-colum gap-14 fs-16 fw-400 color-gray-4">
+                <p class="color-gray fs-24 fw-500"> Business</p>
+                <span>Success</span>
+                <span>About Locato </span>
+                <span> Blog</span>
+                <span>Infomation</span>
+                <span>Travel Guide</span>
             </div>
         </div>    
 
         <div class="line-footer"></div>
-        <div class="base-row jtf-ct-space-between with-full">
-            <p class="base-describe"> &nbsp; Copyright© 2021 UIHUT LLC. All rights reserved </p>
+        <div class="footer-below">
+            <p class="base-describe color-gray-4">Copyright© 2021 UIHUT LLC. All rights reserved </p>
             <div class="base-row gap-14 al-it-center">
                 <img src="image/fb.png">
                 <img src="image/in.png">
                 <img src="image/tw.png">
                 <img src="image/intagram.png">
-                &nbsp;
             </div>
         </div>
     </div>
